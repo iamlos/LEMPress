@@ -8,7 +8,7 @@ DB_USER=""
 DB_PASSWORD=""
 DB_SALT=""
 DB_PREFIX=""
-DEFAULT_USER="deployer"
+DEFAULT_USER="los"
 PUBLIC_IP=`curl -s http://checkip.dyndns.org | awk '{print $6}' | awk -F '<' '{print $1}'`
 
 if [ "$USER" == "root" ]

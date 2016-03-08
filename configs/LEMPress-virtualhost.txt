@@ -1,7 +1,7 @@
 server {
   listen   127.0.0.1:8080;
   server_name  URL URL.com;
-  root   /home/deployer/sites/URL;
+  root   /home/los/sites/URL;
   port_in_redirect off;
 
   location / {

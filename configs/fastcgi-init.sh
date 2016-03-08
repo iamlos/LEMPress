@@ -1,6 +1,6 @@
 #!/bin/bash
 BIND=127.0.0.1:9000
-USER=deployer
+USER=los
 PHP_FCGI_CHILDREN=5
 PHP_FCGI_MAX_REQUESTS=500
  

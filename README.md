@@ -18,26 +18,26 @@ Because LEMPress is taking advantage of caching via Varnish, it will break Wordp
 Distros
 =======
 
-LEMPress expects and has only been tested with Ubuntu 12.04 LTS x64
+LEMPress expects and has only been tested with Ubuntu 14.04 HVM x64
 
 
 How to Use:
 ========
 
-Create the "deployer" user
+Create the "los" user
 
-        sudo useradd -d /home/deployer -s /bin/bash -G sudo -m deployer
-        sudo passwd deployer
-        su deployer
+        sudo useradd -d /home/los -s /bin/bash -G sudo -m los
+        sudo passwd los
+        su los
         cd ~
 
 Install Git
 
-        yes | sudo apt-get install git-core
+        yes | sudo apt-get install git
 
 Download LEMPress
 
-        git clone git://github.com/okor/LEMPress.git
+        git clone git://github.com/iamlos/LEMPress.git
         cd LEMPress
 
 Setup the server
